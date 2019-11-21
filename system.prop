@@ -1,0 +1,100 @@
+#
+# from device/tinno/p161m/system.prop
+#
+#
+# system.prop for generic sdk
+#
+
+vendor.rild.libpath=mtk-ril.so
+vendor.rild.libargs=-d /dev/ttyC0
+
+
+# MTK, Infinity, 20090720 {
+wifi.interface=wlan0
+# MTK, Infinity, 20090720 }
+
+# MTK, mtk03034, 20101210 {
+ro.mediatek.wlan.wsc=1
+# MTK, mtk03034 20101210}
+# MTK, mtk03034, 20110318 {
+ro.mediatek.wlan.p2p=1
+# MTK, mtk03034 20110318}
+
+# MTK, mtk03034, 20101213 {
+mediatek.wlan.ctia=0
+# MTK, mtk03034 20101213}
+
+
+#
+wifi.tethering.interface=ap0
+#
+
+ro.opengles.version=196610
+#ro.kernel.qemu=1
+#ro.kernel.qemu.gles=0
+
+wifi.direct.interface=p2p0
+#dalvik.vm.heapgrowthlimit=256m
+#dalvik.vm.heapsize=512m
+
+# USB MTP WHQL
+ro.sys.usb.mtp.whql.enable=0
+
+# Power off opt in IPO
+sys.ipo.pwrdncap=2
+
+ro.sys.usb.storage.type=mtp
+
+# USB BICR function
+ro.sys.usb.bicr=no
+
+# USB Charge only function
+ro.sys.usb.charging.only=yes
+
+# audio
+ro.camera.sound.forced=0
+ro.audio.silent=0
+
+ro.zygote.preload.enable=0
+
+# temporary enables NAV bar (soft keys)
+qemu.hw.mainkeys=0
+
+ro.kernel.zio=38,108,105,16
+#ro.kernel.qemu=1
+#ro.kernel.qemu.gles=0
+#ro.boot.selinux=disable
+
+# Disable dirty region for Mali
+#debug.hwui.render_dirty_regions=false
+
+ro.sf.lcd_density=280
+
+# performance
+ro.mtk_perf_simple_start_win=1
+ro.mtk_perf_fast_start_win=1
+ro.mtk_perf_response_time=1
+
+# disable ipo for development
+sys.ipo.disable=1
+
+# set proximity calibration parameter
+ro.tinno.ps_threshold_offset=0
+ro.tinno.ps_max_measure_value=4095
+ro.tinno.ps_debounce_distance=3
+ro.tinno.ps_threshold_delta3=427
+ro.tinno.ps_threshold_delta5=145
+ro.tinno.ps_auto_cal=1
+ro.tinno.ps_threshold_delta3_5=282
+
+# light sensor map to lux
+# g_lux_to_sys_map[] = {0.0, 10.0, 30.0, 80.0, 160.0, 300.0, 520.0, 700.0, 1000.0, 2000.0, 4000.0}
+# vendor.tinno.sensor_lux_map=2,10,20,100,320,630,1100,1500,2100,3200,4500
+vendor.tinno.sensor_lux_map=0,10,30,80,160,300,520,700,1000,2000,4000
+
+# tinno auto brightness feature
+ro.smartabc_support=true
+#add multi camera config for myos camera app
+ro.camera.aux.packagelist=com.myos.camera,com.ape.camfaccalibration,com.android.cts.verifier,android.camera.cts,com.motorola.motocit
+
+#
