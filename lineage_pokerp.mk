@@ -12,12 +12,12 @@ PRODUCT_BRAND := motorola
 PRODUCT_DEVICE := pokerp
 PRODUCT_MANUFACTURER := motorola
 PRODUCT_NAME := lineage_pokerp
-PRODUCT_MODEL := moto e⁶ˢ
+PRODUCT_MODEL := moto e⁶ plus
 
 PRODUCT_GMS_CLIENTID_BASE := android-motorola
 TARGET_VENDOR := motorola
 TARGET_VENDOR_PRODUCT_NAME := pokerp
-PRODUCT_BUILD_PROP_OVERRIDES += PRIVATE_BUILD_DESC="full_p161bn-user 9 PTB29.401-25 25 release-keys"
+PRODUCT_BUILD_PROP_OVERRIDES += PRIVATE_BUILD_DESC="full_p161m-user 9 PTA29.401-25 25 release-keys"
 
 # Set BUILD_FINGERPRINT variable to be picked up by both system and vendor build.prop
-BUILD_FINGERPRINT := motorola/pokerp_retin_64/pokerp:9/PTB29.401-25/25:user/release-keys
+BUILD_FINGERPRINT := motorola/pokerp_reteu/pokerp:9/PTA29.401-25/25:user/release-keys

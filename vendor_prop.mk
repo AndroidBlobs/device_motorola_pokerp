@@ -334,6 +334,7 @@ PRODUCT_PROPERTY_OVERRIDES +=  \
     ro.telephony.sim.count=2 \
     ro.ussd_ksc5601=0 \
     ro.vendor.ap_info_monitor=0 \
+    ro.vendor.camera3.realtime_timestamp_supported=0 \
     ro.vendor.camera3.zsl.default=100 \
     ro.vendor.connsys.dedicated.log=1 \
     ro.vendor.fingerprint.qwk=1 \

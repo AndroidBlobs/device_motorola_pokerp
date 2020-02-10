@@ -1,6 +1,8 @@
 # 1 "vendor/mediatek/proprietary/hardware/fstab/mt6765/fstab.in.mt6765"
 # 1 "<built-in>"
 # 1 "<command-line>"
+# 1 "/usr/include/stdc-predef.h" 1 3 4
+# 1 "<command-line>" 2
 # 1 "vendor/mediatek/proprietary/hardware/fstab/mt6765/fstab.in.mt6765"
 # 103 "vendor/mediatek/proprietary/hardware/fstab/mt6765/fstab.in.mt6765"
 /dev/block/platform/bootdevice/by-name/system / ext4 ro wait,recoveryonly
