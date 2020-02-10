@@ -2,7 +2,7 @@ DEVICE_PATH := device/motorola/pokerp
 BOARD_VENDOR := motorola
 
 # Security patch level
-VENDOR_SECURITY_PATCH := 2019-06-05
+VENDOR_SECURITY_PATCH := 2019-10-01
 
 # HIDL
 DEVICE_MANIFEST_FILE := $(DEVICE_PATH)/manifest.xml

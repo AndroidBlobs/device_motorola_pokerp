@@ -1,5 +1,5 @@
 #
-# from device/tinno/p161m/system.prop
+# from device/tinno/p161bn/system.prop
 #
 #
 # system.prop for generic sdk
@@ -82,9 +82,10 @@ sys.ipo.disable=1
 ro.tinno.ps_threshold_offset=0
 ro.tinno.ps_max_measure_value=4095
 ro.tinno.ps_debounce_distance=3
-ro.tinno.ps_threshold_delta3=378
-ro.tinno.ps_threshold_delta5=160
+ro.tinno.ps_threshold_delta3=427
+ro.tinno.ps_threshold_delta5=145
 ro.tinno.ps_auto_cal=1
+ro.tinno.ps_threshold_delta3_5=282
 
 # light sensor map to lux
 # g_lux_to_sys_map[] = {0.0, 10.0, 30.0, 80.0, 160.0, 300.0, 520.0, 700.0, 1000.0, 2000.0, 4000.0}
